@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/Readability Score/task/build/
+/Readability Score/task/out/
+/Readability Score/task/out/production/classes/
+/Topics/Processing strings/Find the first occurrence of the word  the/out/
+/Topics/Processing strings/Find the first occurrence of the word  the/out/production/classes/
