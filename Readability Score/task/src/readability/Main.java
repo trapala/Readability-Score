@@ -145,7 +145,6 @@ public class Main {
         /*
          * stage 4
          */
-
         String text = Files.readString(Path.of(args[0]));
         startMenu(text);
     }
@@ -201,7 +200,6 @@ public class Main {
     protected static void printFK(String text) {
         double scoreFK = FK(text);
         int ageFK = ageText(FK(text));
-
         System.out.printf("Flesch–Kincaid readability tests: %.2f (about %s-years-olds).\n", scoreFK, ageFK);
     }
 
